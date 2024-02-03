@@ -8,8 +8,14 @@ h1,
 h2 {
     color: #1B1F20;
     background-color: #F9FFDA;
-    font-weight: bolder
+    display:block;
+    font-weight: bolder;
 }
+
+h2 {
+    display: inline-flex;
+}
+
 
 h3 {
     color: #1B1F20;
@@ -26,6 +32,11 @@ ol {
 li {
     color: #1B1F20;
     line-height: 22px;
+}
+
+a:hover {
+    color:#373E40;
+    background-color: aqua;
 }
 
 
